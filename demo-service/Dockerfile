@@ -1,5 +1,7 @@
 FROM registry.access.redhat.com/rhoar-nodejs/nodejs-10
 
+USER root
+
 WORKDIR /usr/src/app
 
 COPY package.json .
